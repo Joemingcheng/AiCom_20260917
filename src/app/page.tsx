@@ -105,7 +105,7 @@ export default function Home() {
           <Reveal>
             <div className="flex items-center gap-3 text-xs tracking-[0.3em] text-slate-400 uppercase">
               <span className="h-px w-8 bg-cyan-600" />
-              康全電訊股份有限公司
+              愛康科技股份有限公司
             </div>
             <h1 className="mt-6 text-4xl leading-tight font-semibold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
               領導通訊

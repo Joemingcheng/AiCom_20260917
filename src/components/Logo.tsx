@@ -26,7 +26,7 @@ export function Logo({ className }: { className?: string }) {
     <div className={`flex items-center gap-2.5 ${className ?? ""}`}>
       <LogoMark className="h-7 w-7" />
       <div className="leading-none">
-        <p className="text-[15px] font-semibold tracking-wide text-slate-900">康全電訊</p>
+        <p className="text-[15px] font-semibold tracking-wide text-slate-900">愛康科技</p>
         <p className="mt-1 text-[10px] tracking-[0.25em] text-slate-400">COMTREND</p>
       </div>
     </div>

@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "康全電訊 Comtrend | Leading the Communication Trend",
+  title: "愛康科技 Comtrend | Leading the Communication Trend",
   description:
-    "康全電訊股份有限公司提供光纖、VDSL、乙太網路、家用電力線網路與企業遠端管理解決方案，領導通訊趨勢。",
+    "愛康科技股份有限公司提供光纖、VDSL、乙太網路、家用電力線網路與企業遠端管理解決方案，領導通訊趨勢。",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

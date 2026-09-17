@@ -6,7 +6,7 @@ import { Reveal } from "@/components/Reveal";
 import { blogArticles } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "技術文章 | 康全電訊 Comtrend",
+  title: "技術文章 | 愛康科技 Comtrend",
   description: "ESP32 與 AI 整合應用的技術文章，從智慧社區、零售門市、產線維護、智慧家庭到銀髮居家照護。",
 };
 

@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: PageProps<"/blog/[slug]">): P
   const article = getArticleBySlug(slug);
   if (!article) return {};
   return {
-    title: `${article.title} | 康全電訊 Comtrend`,
+    title: `${article.title} | 愛康科技 Comtrend`,
     description: article.excerpt,
   };
 }
@@ -59,7 +59,7 @@ export default async function BlogArticlePage({ params }: PageProps<"/blog/[slug
         <Reveal delay={160} className="mt-14 rounded-2xl border border-slate-900/8 bg-white/70 p-7 shadow-sm shadow-slate-900/5 backdrop-blur-xl">
           <h3 className="text-lg font-semibold text-slate-900">想進一步了解這類整合方案？</h3>
           <p className="mt-2 text-sm leading-6 text-slate-600">
-            歡迎與康全電訊業務團隊聯繫，討論適合您場域的 ESP32 與 AI 整合方案。
+            歡迎與愛康科技業務團隊聯繫，討論適合您場域的 ESP32 與 AI 整合方案。
           </p>
           <a
             href="mailto:sales@comtrend.com"
