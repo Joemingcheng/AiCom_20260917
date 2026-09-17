@@ -30,8 +30,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body id="top" className="relative flex min-h-full flex-col overflow-x-hidden bg-[#f5f7fb] text-slate-900">
         <div className="pointer-events-none fixed inset-0 -z-10">
           <div className="absolute inset-0 bg-[#f5f7fb]" />
-          <Parallax fixed speed={0.12} className="absolute -top-48 right-[-15%] h-[640px] w-[640px] rounded-full bg-cyan-300/30 blur-[160px]" />
-          <Parallax fixed speed={-0.08} className="absolute bottom-[-20%] left-[-10%] h-[520px] w-[520px] rounded-full bg-blue-300/25 blur-[160px]" />
+          <Parallax fixed speed={0.12} className="absolute -top-48 right-[-15%] h-[640px] w-[640px] rounded-full bg-cyan-300/30 blur-[160px]">{null}</Parallax>
+          <Parallax fixed speed={-0.08} className="absolute bottom-[-20%] left-[-10%] h-[520px] w-[520px] rounded-full bg-blue-300/25 blur-[160px]">{null}</Parallax>
         </div>
         <Header />
         {children}

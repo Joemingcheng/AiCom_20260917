@@ -5,7 +5,7 @@ import { useEffect, useRef, type ReactNode } from "react";
 type ParallaxProps = {
   speed?: number;
   className?: string;
-  children: ReactNode;
+  children?: ReactNode;
   /** true = element is position:fixed and should drift by raw scroll position (for background layers) */
   fixed?: boolean;
 };
